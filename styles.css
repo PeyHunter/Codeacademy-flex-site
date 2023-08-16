@@ -71,12 +71,17 @@ img.logo {
 
 }
 
-
+.employee-section {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
 
 
 .employee-images {
 display: flex;
-    width: 100%;
+    width: 300px;
     height: 300px;
-    justify-content: space-between;
+    overflow: hidden;
+    justify-content: center;
 }
